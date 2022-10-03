@@ -10,7 +10,7 @@ public class Challenge_2 {
 		
 		//arr_flip( matrix);
 
-		arr_flip2( matrix);
+		//arr_flip2( matrix);
 		
 		/*
 		Scanner my_scan = new Scanner(System.in);
