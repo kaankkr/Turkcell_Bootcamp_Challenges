@@ -5,5 +5,5 @@
  * @author kaankaracengel
  *
  */
-module HelloWorld {
+module TheCalcLib {
 }
