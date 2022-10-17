@@ -1,24 +1,5 @@
 package interfaces;
 
-interface Camera{
-	
-	
-	public void takePhoto();
-	public void deletePhoto();
-	public void recordVideo();
-	public void deleteVideo();
-	
-}
-
-interface  MusicPlayer{
-	
-	public void startMusic();
-	public void stopMusic();
-	public void next();
-	public void previous();
-}
-
- 
 
 public class Phone implements Camera, MusicPlayer{
 
