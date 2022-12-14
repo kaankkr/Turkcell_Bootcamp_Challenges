@@ -52,12 +52,6 @@ public class DersOgrenciController {
 		return ResponseEntity.status(HttpStatus.OK).body(dersOgrenciService.getByStudent(OGRENCI_ID));
 	}
 	
-	/*
-	@PostMapping(path = "/save")
-	public ResponseEntity<String> save(@RequestBody DersOgrenci dersOgrenci) throws Exception {
-		return ResponseEntity.status(HttpStatus.OK).body(dersOgrenciService.save(dersOgrenci));			
-	}
-	*/
 	
 	@PostMapping(path = "/save")
 	public ResponseEntity<String> save(@RequestBody DersOgrenci dersOgrenci) {
